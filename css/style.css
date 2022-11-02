@@ -1,0 +1,171 @@
+body {
+  color: white;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 0.8em;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav i {
+  font-size: 1.4em;
+}
+
+main .nav li a {
+  color: white;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+main .nav li a:hover {
+  color: #EC2B44;
+}
+
+main .gaming {
+  font-family: 'Anton', sans-serif;
+}
+
+main .gaming .gaming-h1 {
+  color: #F23249;
+}
+
+main .gaming .text-uppercase {
+  font-size: 5em;
+  letter-spacing: 3px;
+}
+
+main .gaming .exclamation {
+  font-size: 2.5em;
+  position: absolute;
+  margin-top: -220px;
+  margin-left: 160px;
+  color: #F23249;
+}
+
+main .details {
+  position: absolute;
+  margin-left: 300px;
+  z-index: 1;
+  width: 500px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main .line {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 100px;
+  font-size: 0.5em;
+}
+
+main .line .real-line, main .line .colored-line {
+  height: 150px;
+  margin-left: 5px;
+  border-left: 0.05px solid lightgrey;
+}
+
+main .line .colored-line {
+  border-color: #F23249;
+}
+
+main .footer {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main .footer .nav {
+  position: absolute;
+  margin-left: 300px;
+  width: 350px;
+}
+
+main .footer .discover {
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
+main .footer .border-top {
+  width: 10%;
+  margin-left: 70px;
+}
+
+.wrapper-menu {
+  width: 7%;
+  height: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 330ms ease-out;
+  transition: -webkit-transform 330ms ease-out;
+  transition: transform 330ms ease-out;
+  transition: transform 330ms ease-out, -webkit-transform 330ms ease-out;
+}
+
+.wrapper-menu.open {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.line-menu {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 70%;
+  height: 1px;
+}
+
+.line-menu.half {
+  width: 40%;
+}
+
+.line-menu.start {
+  -webkit-transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57), -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+          transform-origin: right;
+  width: 70%;
+}
+
+.open .line-menu.start {
+  -webkit-transform: rotate(-90deg) translateX(3px);
+  -ms-transform: rotate(-90deg) translateX(3px);
+          transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57), -webkit-transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+          transform-origin: left;
+}
+
+.open .line-menu.end {
+  -webkit-transform: rotate(-90deg) translateX(-3px);
+  -ms-transform: rotate(-90deg) translateX(-3px);
+          transform: rotate(-90deg) translateX(-3px);
+}
+/*# sourceMappingURL=style.css.map */
